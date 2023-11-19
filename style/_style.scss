@@ -1,0 +1,35 @@
+body {
+  background: #171717;
+}
+#header {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header {
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 60px;
+  &__logo {
+    color: var(--Text-1, #fafaf9);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  &__link {
+    color: var(--Text-1, #fafaf9);
+    margin-right: 60px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+}

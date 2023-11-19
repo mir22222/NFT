@@ -1,0 +1,57 @@
+.hero {
+  margin-top: 230px;
+  margin-left: 140px;
+  &__logo {
+    width: 883px;
+    height: 340px;
+    color: var(--Text-1, #fafaf9);
+    font-family: inter;
+    font-size: 172px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 170px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+  }
+  &__desc {
+    position: absolute;
+    top: 650px;
+    width: 560px;
+    color: var(--Text-2, rgba(239, 237, 232, 0.65));
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  &__btn {
+    color: #fff;
+    display: inline-flex;
+    padding: 18px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #e6533c;
+  }
+  &__pic {
+    position: absolute;
+    top: 350px;
+    margin-left: 800px;
+    width: 409px;
+    height: 684px;
+  }
+  &__p {
+    margin-top :100px;
+    color: var(--Text-2, rgba(239, 237, 232, 0.65));
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+  }
+  &__icon{
+    margin-top: 33px;
+  }
+}

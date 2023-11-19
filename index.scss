@@ -1,0 +1,15 @@
+@import './libs/normalize';
+@import './style/fonts';
+@import './style/var';
+@import './style/style';
+@import './style/hero';
+@import './style/block';
+@import './style/wrap';
+@import './style/footer';
+@import './style/inner';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
